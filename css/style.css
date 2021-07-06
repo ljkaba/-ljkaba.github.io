@@ -264,12 +264,5 @@ h1 {
 }
 
 .darken-bg {
-	width: 100%;
-	background-image: url('D:\xampp\htdocs\Devfullstack\img\dice-2777809_1280.jpg');
-	background-position: center;
-	background-size: cover;
-}
-
-.darken-bg {
-	background-image: linear-gradient(to right, #000428, #004e92 ) , url('D:\xampp\htdocs\Devfullstack\img\dice-2777809_1280.jpg');
+	background-image: linear-gradient(to right, #000428, #004e92 );
 }
