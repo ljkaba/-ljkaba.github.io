@@ -3,7 +3,7 @@ body{
 	margin: 0;
     padding: 0;
 }
-
+@media only screen and (min-width: 100px)  {
 .gradient-bg, .navbar {
 	background: #000428;
   /* fallback for old browsers */
@@ -27,7 +27,8 @@ body{
 .copyright, .title-header {
 	text-align: center;
 	align-self: center;
-	font-weight: lighter;
+	font-weight: bolder;
+    padding-top: 30px;
    
 }
 ul {
@@ -46,6 +47,7 @@ ul {
 	padding: 0;
 	list-style: none;
 	margin: -10px 0 0 -10px;
+   
   
 }
 
@@ -118,4 +120,14 @@ ul {
 
 .social-nav .whatsapp:hover {
 	color: #25D366;
+}
+
+.col-sm-12 .social-nav{
+    
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    
+}
 }
